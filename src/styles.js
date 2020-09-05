@@ -1,6 +1,10 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
+  body: {
+    backgroundColor: 'black',
+    backgroundImage: "url('https://www.transparenttextures.com/patterns/carbon-fibre-big.png')"
+  },
   footer: {
     textAlign: 'center',
     position: 'fixed',
